@@ -189,6 +189,9 @@ export function PinPad({ value, onChange, onSubmit, disabled, label }: { value: 
           </button>
         ))}
       </div>
+      <p className="li-note" style={{ marginTop: 12 }} aria-live="polite">
+        {value.length < 4 ? `Enter ${4 - value.length} more digit${4 - value.length === 1 ? "" : "s"}` : "Press ✓ (or Enter) to confirm"}
+      </p>
     </div>
   );
 }
