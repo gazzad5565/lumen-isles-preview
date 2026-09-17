@@ -190,7 +190,7 @@ function Celebration({ fresh }: { fresh: boolean }) {
           Ring-bridge restored
         </h1>
         <p className="li-tutor-voice" style={{ maxWidth: 520 }}>
-          Your circumference fitted the ring exactly — <Tex tex="\\tfrac{22}{7} \\times 14 = 44" /> cm. The bridge catches the light, and the next path glows a little warmer.
+          Your circumference fitted the ring exactly — <Tex tex="\tfrac{22}{7} \times 14 = 44" /> cm. The bridge catches the light, and the next path glows a little warmer.
         </p>
         <Link href="/map" className="li-btn li-btn--primary" style={{ marginTop: 32 }} autoFocus>
           Back to map
